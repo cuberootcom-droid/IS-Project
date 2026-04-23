@@ -1,0 +1,53 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    color: #222;
+    margin: 0;
+    /* This creates the "invisible walls" that keep your text centered */
+    padding-left: 15%; 
+    padding-right: 15%;
+    overflow-x: hidden; /* Prevents side-scrolling from the negative margins */
+}
+
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #cc0000;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.car-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    margin-top: 30px;
+}
+
+
+.rally-photo {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+
+.racer-photos {
+    width: 280px;    
+    height: 350px;
+    object-fit: cover;
+    margin: 10px 0;
+   margin-bottom: 15px; 
+   line-height: 1.6;
+    display: block;     
+}
+
+.juha-pos {
+    object-position: 100% 10%; 
+}
+
+.walter-pos {
+    object-position: 50% 5%; 
+}
+
